@@ -1,0 +1,6 @@
+blog:
+  folder: blog/
+about:
+  path: about/index.md
+homepage:
+  path: home/index.md
