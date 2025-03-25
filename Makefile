@@ -22,11 +22,11 @@ test:
 	python -m unittest discover -s tests
 
 # Run Integration Tests
-# integration:
-
+integration: build
+	./integration.sh
 
 # Clean up the build artifacts
 clean:
 	rm -rf build dist *.spec
 
-.PHONY: all build run test clean
+.PHONY: all build run test integration clean

@@ -23,7 +23,7 @@ To run the unit tests, use the following command:
 make test
 ```
 
-To run integartion tests, use the following command:
+To run integration tests, use the following command:
 
 ```sh
 make integration
